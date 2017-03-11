@@ -1,0 +1,11 @@
+#!/bin/bash
+
+file=$1
+time1=$(date +%s.%6N)
+echo $time1
+echo $(cat $1 | grep $2)
+time2=$(date +%s.%6N)
+echo $time2
+num=$(echo $time2 - $time1 | bc) 
+#difftime=$(($time2-$time1))
+echo $num

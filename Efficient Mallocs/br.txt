@@ -1,0 +1,4 @@
+break mm_malloc
+break mm_realloc
+break extend_heap
+

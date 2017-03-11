@@ -1,0 +1,11 @@
+#!/bin/bash
+
+file=$1
+nsample=1000
+headbytes=$(head -q -n $nsample $file | wc -c)
+#tailbytes=$(tail -q -n $nsample $file | wc -c)
+echo "head bytes-> " $headbytes
+filesize=$(ls -al $file | cut -f5 -d" ")
+echo "file size-> " $filesize
+echo $(($filesize / $headbytes * $nsample))
+

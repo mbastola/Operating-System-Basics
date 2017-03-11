@@ -1,0 +1,18 @@
+pwd
+echo $1
+whoami
+date
+ls -al
+find . -name '*.c'
+echo $1 $2
+show $1 $2
+set temp 4
+show $temp
+unset temp
+show $temp
+export temp 4
+show $temp
+unexport temp	
+show $temp
+./xssh -x -f cmd.txt	
+
