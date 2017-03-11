@@ -17,23 +17,6 @@
 #include "mm.h"
 #include "memlib.h"
 
-/*********************************************************
- * NOTE TO STUDENTS: Before you do anything else, please
- * provide your team information in the following struct.
- ********************************************************/
-
-team_t team = {
-    /* Team name */
-    "Brian & Manil",
-    /* First member's full name */
-    "Brian Lam",
-    /* First member's email address */
-    "brian.lam@wustl.edu",
-    /* Second member's full name (leave blank if none) */
-    "Manil Bastola",
-    /* Second member's email address (leave blank if none) */
-    "mbastola@wustl.edu"
-};
 
 /* Helper Macros */
 
