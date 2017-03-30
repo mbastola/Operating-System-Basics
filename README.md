@@ -1,6 +1,6 @@
 # Operating System Basics
 
-A hands-on collection of C systems programming labs covering core operating-system concepts from user-space tools to introductory Linux kernel modules.
+A hands-on collection of C systems programming labs covering core operating-system concepts from user-space tools to introductory Linux kernel modules. This is a part of Operating Systems course in CS at WashU.
 
 ## Projects
 
